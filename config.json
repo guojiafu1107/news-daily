@@ -1,0 +1,88 @@
+{
+  "sources": {
+    "chinese_international": [
+      {
+        "name": "联合早报",
+        "url": "https://www.zaobao.com",
+        "rss": "https://www.zaobao.com/news/world/rss.xml",
+        "type": "rss"
+      },
+      {
+        "name": "环球网",
+        "url": "https://world.huanqiu.com",
+        "rss": "https://world.huanqiu.com/rss.xml",
+        "type": "rss"
+      },
+      {
+        "name": "香港新闻网",
+        "url": "https://www.hkcna.hk",
+        "rss": "https://www.hkcna.hk/rss.xml",
+        "type": "rss"
+      }
+    ],
+    "english_original": [
+      {
+        "name": "NHK World",
+        "url": "https://www3.nhk.or.jp/nhkworld/en/news/",
+        "rss": "https://www3.nhk.or.jp/nhkworld/en/news/rss.xml",
+        "type": "rss"
+      },
+      {
+        "name": "France 24",
+        "url": "https://www.france24.com/en/",
+        "rss": "https://www.france24.com/en/rss",
+        "type": "rss"
+      },
+      {
+        "name": "RT News",
+        "url": "https://www.rt.com/news/",
+        "rss": "https://www.rt.com/rss/news/",
+        "type": "rss"
+      }
+    ],
+    "finance": [
+      {
+        "name": "FT中文网",
+        "url": "https://www.ftchinese.com",
+        "rss": "https://www.ftchinese.com/rss/feed",
+        "type": "rss"
+      },
+      {
+        "name": "华尔街日报中文版",
+        "url": "https://cn.wsj.com",
+        "rss": "https://cn.wsj.com/rss",
+        "type": "rss"
+      },
+      {
+        "name": "华尔街见闻",
+        "url": "https://wallstreetcn.com",
+        "rss": "https://wallstreetcn.com/stream/feed",
+        "type": "rss"
+      }
+    ]
+  },
+  "translation": {
+    "provider": "zhipu",
+    "model": "glm-4-flash",
+    "api_key": "YOUR_ZHIPU_API_KEY_HERE"
+  },
+  "email": {
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "smtp_user": "your_email@gmail.com",
+    "smtp_pass": "your_app_password",
+    "from_name": "每日新闻速递",
+    "to_email": "recipient@example.com",
+    "send_enabled": false
+  },
+  "settings": {
+    "items_per_source": 10,
+    "output_dir": "output",
+    "save_html": true,
+    "open_browser": true,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "request_timeout": 15,
+    "retry_times": 3,
+    "retry_delay": 2
+  }
+}
